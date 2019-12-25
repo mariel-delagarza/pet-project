@@ -1,6 +1,7 @@
 # The purpose of this file is to detail to Rack
 # the environment requirements of the application
-# and start the application.
+# and start the application. It requires a valid
+# Sinatra Controller to run.
 
 require './config/environment'
 
