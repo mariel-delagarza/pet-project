@@ -18,3 +18,12 @@ group :test do
   gem 'rack-test'
   gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 end
+
+# Comments about gems:
+#
+# Shotgun: a small gem that makes it easier to develop
+# and test Rack-based Ruby web applications locally by 
+# starting Rack with automatic code reloading. If you
+# change anything and save it, when you hit 'refresh'
+# in the browser, your app will respond with the latest
+# version of your code.
