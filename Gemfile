@@ -26,4 +26,6 @@ end
 # starting Rack with automatic code reloading. If you
 # change anything and save it, when you hit 'refresh'
 # in the browser, your app will respond with the latest
-# version of your code.
+# version of your code. To start the shotgun server
+# type "shotgun" in the terminal. It will open on port
+# 9393. To close it, ctrl+C.
