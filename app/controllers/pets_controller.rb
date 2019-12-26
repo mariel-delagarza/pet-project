@@ -11,6 +11,7 @@ class PetsController < ApplicationController
 
   get "/pets/new" do
     "On this page you can create a profile for your pet"
+    # erb :"/pets/new"
   end
 
   # post "/pets" do 
