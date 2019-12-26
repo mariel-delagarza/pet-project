@@ -2,6 +2,11 @@ class PetsController < ApplicationController
 
   get "/pets" do 
     "This is a list of pets"
+  # if ! logged_in?
+  #   redirect to "/"
+  # else 
+  #   @pets = current_user.pets.all 
+  # end 
   end
 
   get "/pets/new" do
@@ -29,5 +34,5 @@ class PetsController < ApplicationController
   #   pet.destroy
   #   redirect to "/pets"
   # end 
-  
+
 end   
