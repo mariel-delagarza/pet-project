@@ -4,4 +4,15 @@ class UsersController < ApplicationController
     erb :"/users/create"
   end
 
+  # post "/users" do 
+  #   @user = User.new(username: params[:username], email: params[:email], password: params[:password])
+  #   if @user.save 
+  #     session[:user_id] = @user.id 
+  #     redirect to "/pets" 
+  #   else
+  #     redirect to "/users/create"
+  #   end 
+  # end 
+  
+
 end 
