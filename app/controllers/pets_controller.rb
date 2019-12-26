@@ -16,4 +16,13 @@ class PetsController < ApplicationController
   #   end 
   # end
 
+  # get "/pets/:id" do 
+  #   if not logged in 
+  #     redirect to home 
+  #   else 
+  #     find and display the pet using its id 
+  #   end
+  # end 
+
+  
 end   
