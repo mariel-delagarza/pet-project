@@ -8,4 +8,12 @@ class PetsController < ApplicationController
     "On this page you can create a profile for your pet"
   end
 
+  # post "/pets" do 
+  #   if not logged in 
+  #     redirect to home page 
+  #   else 
+  #     display profile of newly created pet 
+  #   end 
+  # end
+
 end   
