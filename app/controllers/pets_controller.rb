@@ -24,5 +24,10 @@ class PetsController < ApplicationController
   #   end
   # end 
 
+  # delete "/pets/:id" do 
+  #   find pet by its id
+  #   pet.destroy
+  #   redirect to "/pets"
+  # end 
   
 end   
