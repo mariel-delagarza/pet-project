@@ -1,0 +1,12 @@
+<h1>This page will show you all your saved pets</h1>
+
+<% @pets.each do |pet| %> 
+  <p><b>PET INFO:</b></p>
+  <p>Name: <a href="/pets/<%= pet.id %>"><%=pet.name%></p>
+  <p>Species: <%=pet.species%></p>
+<%end%>
+</br>
+
+<p><a href="/pets/new">Create a profile for a new pet!</a></p>
+<p><a href="/">Back to the main page</a></p>
+<p><a href="/logout">Logout</a></p>
