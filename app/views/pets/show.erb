@@ -1,0 +1,15 @@
+<h1><%@=pet.name%>'s profile</h1>
+
+<p>Name:<%=@pet.name%></p>
+<p>Species:<%=@pet.species%></p>
+
+<p><a href="/pets/<%=@pet.id%>/edit">Edit the information for this pet!</a></p>
+<p>
+  <form class="" action="/pets/<%= @pet.id %>" method="post">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="Delete this pet's profile">
+  </form>
+</p>
+<p><a href="/pets">See all of your pets!</a></p>
+<p><a href="/pets/new">Create a New Pet!</a></p>
+<p><a href="/">Back to main page</a></p>
