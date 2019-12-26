@@ -55,3 +55,13 @@ class PetsController < ApplicationController
   # end 
 
 end   
+
+# In Sinatra, the order in which you define your
+# routes in a controller matters. Routes are 
+# matched in the order they are defined.
+# So, if we were to define the "get '/articles/:id'"
+# route *before* the "get '/artices/new'" route, 
+# Sinatra would feed all requests for "/articles/new"
+# to "/articles/:id" and we would see an error telling
+# us that the app is unable to find an Article instance
+# with an id of "new."
