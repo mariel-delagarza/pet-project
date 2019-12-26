@@ -30,6 +30,18 @@ class PetsController < ApplicationController
   #   end
   # end 
 
+  # get "/pets/:id/edit" do 
+  #   @pet = Pet.find_by_id(params[:id])
+  #   if !logged_in?
+  #     redirect to "/"
+  #   elsif 
+  #     @pet && current_user.pets.include?(@pet)
+  #     erb :"/pets/edit"
+  #   else 
+  #     redirect to "/pets"
+  #   end 
+  # end 
+
   # delete "/pets/:id" do 
   #   find pet by its id
   #   pet.destroy
