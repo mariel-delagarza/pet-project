@@ -5,8 +5,13 @@
 
 require './config/environment'
 
+
 if ActiveRecord::Migrator.needs_migration?
   raise 'Migrations are pending. Run `rake db:migrate` to resolve the issue.'
 end
 
+# You need to pull in the other controller files 
+# to connect everything.
 run ApplicationController
+use PetsController
+use UsersController
