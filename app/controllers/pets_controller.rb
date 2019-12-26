@@ -42,6 +42,12 @@ class PetsController < ApplicationController
   #   end 
   # end 
 
+  # patch "/pets/:id" do 
+  #   @pet = current_user.pets.find_by_id(params[:id])
+  #   @pet.name = params[:name]
+  #   @pet.species = params[:species]
+  # end 
+
   # delete "/pets/:id" do 
   #   find pet by its id
   #   pet.destroy
