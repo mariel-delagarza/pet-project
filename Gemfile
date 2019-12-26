@@ -29,3 +29,7 @@ end
 # version of your code. To start the shotgun server
 # type "shotgun" in the terminal. It will open on port
 # 9393. To close it, ctrl+C.
+#
+# Bundler: provides us access to the "bundle install" 
+# terminal command which will install any gems in the
+# Gemfile and any gem dependencies.
