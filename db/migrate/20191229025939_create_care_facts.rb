@@ -3,7 +3,7 @@ class CreateCareFacts < ActiveRecord::Migration
     create_table :care_facts do |t|
       t.string :food_brand 
       t.string :food_serving 
-      t.string :feedings_pet_day 
+      t.string :feedings_per_day 
       t.timestamps null: false
     end
   end
