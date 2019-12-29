@@ -1,7 +1,9 @@
 class CreateCareFacts < ActiveRecord::Migration
   def change
     create_table :care_facts do |t|
-
+      t.string :food_brand 
+      t.string :food_serving 
+      t.string :feedings_pet_day 
       t.timestamps null: false
     end
   end
