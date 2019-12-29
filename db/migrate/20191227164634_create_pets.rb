@@ -7,6 +7,7 @@ class CreatePets < ActiveRecord::Migration
       t.boolean :has_microchip
       t.string :microchip_number 
       t.string :microchip_registry 
+      t.integer :user_id 
       t.timestamps null: false
     end
   end
